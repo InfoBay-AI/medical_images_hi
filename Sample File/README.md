@@ -19,7 +19,7 @@ from PIL import Image
 
 PARQUET_FILE = r"FILE LOCATION"
 
-OUTPUT_FOLDER = r"C:\Users\3\Downloads\Parquet_Extracted_Images"
+OUTPUT_FOLDER = r"OUTPUT_FOLDER_PATH"
 
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
