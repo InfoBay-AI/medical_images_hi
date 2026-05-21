@@ -2,7 +2,7 @@ This repository contains sample Apache Parquet files of the Medical Hindi Image 
 
 Convert Parquet Back to Images
 
-Use the following Python script to recover images from the Parquet dataset.
+Use the following Python script to extract images from the Parquet dataset.
 ```python
 import os
 import io
@@ -11,7 +11,7 @@ from PIL import Image
 
 PARQUET_FILE = r"C:\Users\3\Downloads\Medical_Hindi_images_dataset.parquet"
 
-OUTPUT_FOLDER = r"C:\Users\3\Downloads\Recovered_Images"
+OUTPUT_FOLDER = r"C:\Users\3\Downloads\Parquet_Extracted_IMAGE"
 
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
@@ -40,14 +40,14 @@ for index, row in df.iterrows():
 
         image.save(output_path)
 
-        print("Recovered:", file_name)
+        print("Extracted:", file_name)
 
     except Exception as e:
 
         print("Error:", e)
 
 print("\nCompleted")
-print("Recovered Images Saved In:")
+print("Extracted Images Saved In:")
 print(OUTPUT_FOLDER)
 ```
 
