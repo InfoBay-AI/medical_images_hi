@@ -17,7 +17,7 @@ import io
 import pandas as pd
 from PIL import Image
 
-PARQUET_FILE = r"FILE LOCATION"
+PARQUET_FILE = r"FILE_PATH"
 
 OUTPUT_FOLDER = r"OUTPUT_FOLDER_PATH"
 
