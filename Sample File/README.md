@@ -59,6 +59,8 @@ Install dependencies:
 pip install pandas pyarrow pillow
 ```
 
+#Considerations
+
 These Parquet files contain a sample of the complete dataset corpus and are provided for preview, evaluation, testing, and research purposes. The files are optimized in the Apache Parquet format for efficient storage and fast loading.
 
 Please note that the uploaded files do not represent the full dataset collection. They include only a limited portion of the overall corpus intended to demonstrate the dataset structure, schema, and content quality.
