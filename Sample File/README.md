@@ -17,9 +17,9 @@ import io
 import pandas as pd
 from PIL import Image
 
-PARQUET_FILE = r"C:\Users\3\Downloads\Medical_Hindi_images_dataset.parquet"
+PARQUET_FILE = r"FILE LOCATION"
 
-OUTPUT_FOLDER = r"C:\Users\3\Downloads\Parquet_Extracted_IMAGE"
+OUTPUT_FOLDER = r"C:\Users\3\Downloads\Parquet_Extracted_Images"
 
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
