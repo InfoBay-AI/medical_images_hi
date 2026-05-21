@@ -2,6 +2,14 @@ This repository contains sample Apache Parquet files of the Medical Hindi Image 
 
 Convert Parquet Back to Images
 
+# Requirements
+
+Install dependencies:
+
+```bash
+pip install pandas pyarrow pillow
+```
+
 Use the following Python script to extract images from the Parquet dataset.
 ```python
 import os
@@ -51,13 +59,6 @@ print("Extracted Images Saved In:")
 print(OUTPUT_FOLDER)
 ```
 
-# Requirements
-
-Install dependencies:
-
-```bash
-pip install pandas pyarrow pillow
-```
 
 # Considerations
 
