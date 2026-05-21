@@ -3,7 +3,7 @@ This repository contains sample Apache Parquet files of the Medical Hindi Image 
 Convert Parquet Back to Images
 
 Use the following Python script to recover images from the Parquet dataset.
-
+```python
 import os
 import io
 import pandas as pd
@@ -49,7 +49,15 @@ for index, row in df.iterrows():
 print("\nCompleted")
 print("Recovered Images Saved In:")
 print(OUTPUT_FOLDER)
+```
 
+# Requirements
+
+Install dependencies:
+
+```bash
+pip install pandas pyarrow pillow
+```
 
 These Parquet files contain a sample of the complete dataset corpus and are provided for preview, evaluation, testing, and research purposes. The files are optimized in the Apache Parquet format for efficient storage and fast loading.
 
